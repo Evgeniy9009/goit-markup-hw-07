@@ -1,4 +1,18 @@
 @import "./utils/variables";
+@import "./base/reset";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/hiro";
+@import "./components/btn";
+@import "./components/specifics";
+@import "./components/work";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/social";
+@import "./components/footer";
+
+@import "./components/modal";
+
 // .notification-error {
 //   @extend %notification;
 //   background-color: red;
@@ -51,47 +65,6 @@
 // $techIcons: "html", "css", "js";
 // @include generateIcons($socialIcons);
 // @include generateIcons($techIcons);
-body {
-  font-family: $primary-font-family;
-  color: $primary-text-color;
-  letter-spacing: 0.03em;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-  color: $primary-text-color;
-}
-
-.btn {
-  font-family: inherit;
-  border: none;
-  cursor: pointer;
-}
 
 .container {
   box-sizing: border-box;
@@ -108,13 +81,3 @@ img {
   line-height: 1.16;
   text-align: center;
 }
-
-@import "./components/page-header";
-@import "./components/logo";
-@import "./components/hiro";
-@import "./components/specifics";
-@import "./components/work";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer";
-@import "./components/social";
