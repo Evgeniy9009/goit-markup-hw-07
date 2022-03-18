@@ -1,0 +1,17 @@
+@import "./utils/variables";
+@import "./base/reset";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/projects";
+@import "./components/job";
+@import "./components/footer";
+@import "./components/btn";
+@import "./components/social";
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
